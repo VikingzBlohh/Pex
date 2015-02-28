@@ -7,10 +7,26 @@ groups:
     worlds:
         world:
             permissions:
+           #bukkit permissions 
+            - bukkit.broadcast.user
+            - modifyworld.*
+            - bukkit.command.help
+            #essentials permissions
+            - essentials.balance
+            - essentials.pay
+            - essentials.rules
         plotworld:
             permissions:
+            #bukkit permissions
+            - bukkit.broadcast.user
+            - modifyworld.*
+            - bukkit.command.help
+            #essentials permissions
+            - essentials.rules
         hub:
             permissions:
+            - bukkit.broadcast.user
+            - bukkit.command.help
   Donator
     build: true
     inheritance:

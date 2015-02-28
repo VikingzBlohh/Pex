@@ -1,19 +1,16 @@
 groups:
-  Default
+  Nordic
     default: true
     build: true
-    prefix: '&7[Member]&f'
-    permissions
-    - essentials.help
-    - modifyworld.chat
-    - modifyworld.*
-    - essentials.home
-    - essentials.sethome
-    - essentials.back
-    - essentials.tpa
-    - essentials.tpaccept
-    - essentials.tpdeny
-    - essentials.spawn
+    prefix: '&7[Nordic]&f'
+    permissions:
+    worlds:
+        world:
+            permissions:
+        plotworld:
+            permissions:
+        hub:
+            permissions:
   Donator
     build: true
     inheritance:
